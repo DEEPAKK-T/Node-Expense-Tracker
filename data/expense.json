@@ -1,0 +1,28 @@
+ [
+      {
+        "id": 1,
+        "date": "2023-11-01",
+        "description": "Office Supplies",
+        "amount": 50.25,
+        "category": "Office",
+        "paidBy": "John Doe"
+      },
+      {
+        "id": 2,
+        "date": "2023-11-05",
+        "description": "Dinner with Clients",
+        "amount": 120.00,
+        "category": "Business Entertainment",
+        "paidBy": "Jane Smith"
+      },
+      {
+        "id": 3,
+        "date": "2023-10-28",
+        "description": "Travel Expenses",
+        "amount": 350.75,
+        "category": "Business Travel",
+        "paidBy": "Emily Johnson"
+      }
+    ]
+
+  
