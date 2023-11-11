@@ -1,5 +1,10 @@
 var http = require("http")
 // require("dotenv").config()
+const getRequest = require("./methods/get-request")
+const postRequest = require("./methods/post-request")
+const putRequest = require("./methods/put-request")
+const deleteRequest = require("./methods/delete-request")
+let expenses = require("./data/expense.json")
 
 const PORT = process.env.PORT || 8080
 
@@ -9,6 +14,7 @@ http.createServer(function (req, res) {
 
     switch (req.method) {
         case "GET":
+            req.expenses = expenses;
             getRequest(req, res);
             break;
         case "POST":
