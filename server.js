@@ -18,12 +18,15 @@ http.createServer(function (req, res) {
             getRequest(req, res);
             break;
         case "POST":
+            req.expenses = expenses;
             postRequest(req, res);
             break;
         case "PUT":
+            req.expenses = expenses;
             putRequest(req, res);
             break;
         case "DELETE":
+            req.expenses = expenses;
             deleteRequest(req, res);
             break;
         default:

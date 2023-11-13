@@ -12,6 +12,7 @@ module.exports = (req, res) => {
     if (req.url == "/api/expenses") {
         res.statusCode = 200
         res.setHeader("Content-Type", "application/json")
+        // console.log("Get alskjdksa", req)
         res.write(JSON.stringify(req.expenses));
         res.end();
     } else if (baseUrl == "/api/expenses/" && expensesId) {
@@ -28,7 +29,7 @@ module.exports = (req, res) => {
         //         var filteredExpense = req.expenses[i]
         //     }
         // }
-        console.log(filteredExpense)
+        // console.log(filteredExpense)
         if (filteredExpense.length > 0) {
             res.statusCode = 200
             res.write(JSON.stringify(filteredExpense));
