@@ -1,22 +1,24 @@
 "# Node-Expense-Tracker" 
 
-#Initializing Package.json file
-npm init 
+# `npm init`
+Initializing Package.json file
+ 
 
-##Installing nodemon to auto run the application
-npm install --save-dev nodemon
+## `npm install --save-dev nodemon`
+Installing nodemon to auto run the application
 
-##Run your application
-npm start
+### `npm start`
+Run your application in development mode
 
-##Endpoints :
+
+### Endpoints :
 GET all Expenses : /api/expenses
 POST(Create) an Expense : /api/expenses
 GET Expense By ID : api/expenses/:ID
 PUT(Update) Expense : api/expenses/:ID
 DELETE Expense : api/expenses/:ID
 
-##Git Commands :
+###Git Commands :
 echo "# Node_Project" >> README.md
 git init
 git add README.md
