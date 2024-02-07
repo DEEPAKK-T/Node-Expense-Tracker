@@ -1,1 +1,66 @@
-[{"id":1,"date":"2023-11-01","description":"Office Supplies","amount":50.25,"category":"Office","paidBy":"John Doe"},{"id":2,"date":"2023-11-05","description":"Dinner with Clients","amount":120,"category":"Business Entertainment","paidBy":"Jane Smith"},{"id":3,"date":"2023-10-28","description":"Travel Expenses","amount":350.75,"category":"Business Travel","paidBy":"Emily Johnson"},{"date":"2023-11-01","description":"Office Supplies","amount":50.25,"category":"Office","paidBy":"John Doe","id":"990c19d9-460d-4056-b6fe-d8955fcc4022"},{"id":"1e64c405-d61e-4228-a02a-c69c1487e0ba","date":"2023-11-01","description":"Office Party","amount":50.25,"category":"Office","paidBy":"John Doe"},{"date":"2023-11-01","description":"Breakfast","amount":50.25,"category":"Badminton","paidBy":"Deepak K T","id":"bace857f-f8ed-4aa9-b20e-804e0fd1fae1"},{"date":"2023-11-01","description":"Breakfast","amount":50.25,"category":"Badminton","paidBy":"Deepak K T","id":"6657754d-3b06-4da3-848c-09df1b3a7efd"},{"date":"2023-11-01","description":"Breakfast","amount":50.25,"category":"Badminton","paidBy":"Deepak K T","id":"2c91b523-f3a9-4d0c-b464-3ccc08da4502"}]
+[
+    {
+        "id": 1,
+        "date": "2023-11-01",
+        "description": "Office Supplies",
+        "amount": 50.25,
+        "category": "Office",
+        "paidBy": "John Doe"
+    },
+    {
+        "id": 2,
+        "date": "2023-11-05",
+        "description": "Dinner with Clients",
+        "amount": 120,
+        "category": "Business Entertainment",
+        "paidBy": "Jane Smith"
+    },
+    {
+        "id": 3,
+        "date": "2023-10-28",
+        "description": "Travel Expenses",
+        "amount": 350.75,
+        "category": "Business Travel",
+        "paidBy": "Emily Johnson"
+    },
+    {
+        "date": "2023-11-01",
+        "description": "Office Supplies",
+        "amount": 50.25,
+        "category": "Office",
+        "paidBy": "John Doe",
+        "id": "990c19d9-460d-4056-b6fe-d8955fcc4022"
+    },
+    {
+        "id": "1e64c405-d61e-4228-a02a-c69c1487e0ba",
+        "date": "2023-11-01",
+        "description": "Office Party",
+        "amount": 50.25,
+        "category": "Office",
+        "paidBy": "John Doe"
+    },
+    {
+        "date": "2023-11-01",
+        "description": "Breakfast",
+        "amount": 50.25,
+        "category": "Badminton",
+        "paidBy": "Deepak K T",
+        "id": "bace857f-f8ed-4aa9-b20e-804e0fd1fae1"
+    },
+    {
+        "date": "2023-11-01",
+        "description": "Breakfast",
+        "amount": 50.25,
+        "category": "Badminton",
+        "paidBy": "Deepak K T",
+        "id": "6657754d-3b06-4da3-848c-09df1b3a7efd"
+    },
+    {
+        "date": "2023-11-01",
+        "description": "Breakfast",
+        "amount": 50.25,
+        "category": "Badminton",
+        "paidBy": "Deepak K T",
+        "id": "2c91b523-f3a9-4d0c-b464-3ccc08da4502"
+    }
+]
