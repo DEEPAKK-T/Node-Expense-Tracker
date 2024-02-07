@@ -1,4 +1,4 @@
-"# Node-Expense-Tracker" 
+## Node-Expense-Tracker
 
 # `npm init`
 Initializing Package.json file
